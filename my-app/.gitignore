@@ -1,0 +1,9 @@
+node_modules/
+.env
+
+# Backend env
+src/backend/.env
+
+# Build folders
+build/
+dist/
