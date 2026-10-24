@@ -1,0 +1,2360 @@
+[
+  {
+    "task": "Build big data processing pipeline",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Process large scale datasets",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Work with Hadoop and Spark",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Develop data pipelines",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Handle distributed data systems",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Optimize big data workflows",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Manage large scale data storage",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Transform and process raw data",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Integrate big data tools",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Ensure scalability of data systems",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Build ETL pipeline using Apache Spark and HDFS",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Stream real-time events using Apache Kafka",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Tune Hadoop MapReduce jobs for better throughput",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Perform distributed batch processing with Spark RDD",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Monitor Kafka consumer lag and partition offsets",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Design fault-tolerant data ingestion using Spark Streaming",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Compress and partition Parquet files in data warehouse",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Orchestrate big data workflows using Apache Airflow",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Integrate Spark with HBase for NoSQL analytics",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Profile and optimize Spark DAG execution plan",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Build incremental data loads into Hadoop cluster",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Implement schema evolution in Avro data pipelines",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Coordinate distributed data processing across nodes",
+    "role": "Big Data Engineer"
+  },
+  {
+    "task": "Load structured data from S3 into Redshift using Spark",
+    "role": "Big Data Engineer"
+  },
+
+
+
+  {
+    "task": "Create business intelligence reports",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Analyze business trends",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Create dashboards for business data",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Interpret business performance data",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Work with Power BI or Tableau",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Analyze KPIs and metrics",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Visualize business data",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Track company performance metrics",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Build interactive Power BI dashboard for sales team",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Create Tableau workbook for executive revenue review",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Analyze quarterly KPI trends for business unit",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Forecast next quarter revenue using historical BI data",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Design drill-down reports in Power BI for finance",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Publish monthly performance scorecard using Tableau",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Identify underperforming business segments in BI report",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Automate BI report generation using scheduled refresh",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Map data sources to business intelligence dimensions",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Build executive summary dashboard in Power BI service",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Audit data quality issues in BI reporting warehouse",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Present Tableau dashboard findings to management",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Analyze conversion funnel metrics using BI tools",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Compare year over year revenue in Power BI report",
+    "role": "Business Intelligence Analyst"
+  },
+  {
+    "task": "Integrate business data from ERP into Tableau",
+    "role": "Business Intelligence Analyst"
+  },
+
+
+
+  {
+    "task": "Develop full stack web application",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Build frontend and backend integration",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Create REST APIs and connect frontend",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Fix bugs in both frontend and backend",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Optimize full stack application performance",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Deploy full stack application",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Maintain and update full stack system",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Build full stack app using React frontend and Express backend",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Integrate Stripe payment gateway in full stack app",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Build admin panel with role-based access in MERN stack",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Configure WebSocket server for full stack real-time chat",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Set up error logging in full stack Node.js application",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Deploy full stack MERN application to AWS EC2",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Build file upload feature in full stack web app",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Refactor full stack monolith to microservices architecture",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Connect React frontend to MongoDB via Express API",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Add email notification service to full stack project",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Write integration tests for full stack React Node.js app",
+    "role": "Full Stack Developer"
+  },
+  {
+    "task": "Implement multi-language support in full stack application",
+    "role": "Full Stack Developer"
+  },
+
+
+  {
+    "task": "Develop iOS application using Swift",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Fix iOS app bugs",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Implement features in iOS app",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Optimize iOS application performance",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Integrate APIs in iOS app",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Maintain iOS application",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Update iOS app UI",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Test iOS application functionality",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Handle app store deployment",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Work with Xcode for development",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Build SwiftUI views for iPhone application",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Implement Apple Push Notification service in Swift app",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Optimize memory usage in Objective-C iOS module",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Integrate Apple Pay into Swift e-commerce app",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Submit iOS application to App Store using Xcode",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Use Core Data for offline storage in Swift app",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Add Face ID biometric authentication to iOS app",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Debug crash logs from TestFlight beta in Xcode",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Implement ARKit augmented reality features in Swift",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Fix Auto Layout constraints on different iPhone sizes",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Integrate MapKit for location features in iOS app",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Write XCTest unit tests for Swift iOS modules",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Handle deep links and universal links in Swift app",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Implement in-app purchase flow using StoreKit Swift",
+    "role": "iOS Developer"
+  },
+  {
+    "task": "Configure iOS app for App Store Connect submission",
+    "role": "iOS Developer"
+  },
+
+
+
+  {
+    "task": "Develop Android application",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Fix Android app bugs",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Implement features in Android app",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Optimize Android app performance",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Integrate APIs in Android app",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Maintain Android application",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Update Android app UI",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Test Android app functionality",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Work with Android Studio",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Build Jetpack Compose screens in Kotlin Android app",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Implement Firebase Cloud Messaging push notifications Android",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Optimize battery usage in Kotlin Android background service",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Integrate Google Maps SDK into Android Kotlin project",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Handle Android runtime permissions using Kotlin coroutines",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Use Room database for local storage in Android app",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Implement MVVM architecture with ViewModel in Kotlin",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Add Retrofit library for REST API calls in Android",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Debug ANR and memory leak using Android Profiler",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Implement dark mode support in Android Kotlin app",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Configure ProGuard obfuscation for Android release",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Write Espresso instrumented UI tests for Android",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Create custom view components using Android Canvas",
+    "role": "Android Developer"
+  },
+  {
+    "task": "Handle background sync using WorkManager in Kotlin",
+    "role": "Android Developer"
+  },
+
+
+
+  {
+    "task": "Write SQL queries",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Optimize database queries",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Manage relational database systems",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Design database tables",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Handle database indexing",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Fix SQL query performance issues",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Maintain database records",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Write stored procedures",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Ensure data integrity in database",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Write complex SQL joins and subqueries for reporting",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Tune slow stored procedures in SQL Server database",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Design normalized relational schema for SQL database",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Create indexed views to speed up SQL query execution",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Migrate SQL Server database to Azure SQL cloud",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Write SQL triggers and constraints for data integrity",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Perform SQL database backup and restore operations",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Partition large SQL tables for performance improvement",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Write SQL scripts to automate weekly data cleanup",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Implement row-level security in SQL Server tables",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Create SQL Server Agent jobs for scheduled tasks",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Analyze execution plans to fix SQL bottlenecks",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Set up SQL read replicas for reporting workloads",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Write database migration scripts using Flyway",
+    "role": "SQL Developer"
+  },
+  {
+    "task": "Develop SQL reporting queries for business analytics",
+    "role": "SQL Developer"
+  },
+
+
+
+  {
+    "task": "Monitor security threats",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Analyze system vulnerabilities",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Implement security measures",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Improve system security",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Handle incident response",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Ensure data protection policies",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Deploy SIEM platform to monitor network security events",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Perform security risk assessment of cloud infrastructure",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Develop incident response playbook for data breach",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Enforce zero-trust access control across systems",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Implement multi-factor authentication for all staff",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Review source code for OWASP security vulnerabilities",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Track compliance against ISO 27001 security standard",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Respond to security alerts from SIEM monitoring tool",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Write security post-incident analysis report",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Patch critical CVE vulnerabilities on production servers",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Assess third-party vendor data security practices",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "task": "Create security awareness training for employees",
+    "role": "Cyber Security Analyst"
+  },
+
+
+
+  {
+    "task": "Perform penetration testing",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Test application security",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Simulate cyber attacks",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Conduct ethical hacking tests",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Identify security loopholes",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Break system security for testing",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Analyze hacking risks",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Perform vulnerability scanning",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Report security weaknesses",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Execute red team penetration test using Metasploit",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Perform wireless network penetration test with Kali Linux",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Test for XSS and CSRF vulnerabilities in web application",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Conduct social engineering test on company employees",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Intercept HTTPS traffic using Burp Suite proxy",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Perform DNS enumeration and subdomain reconnaissance",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Write full penetration testing report with findings",
+    "role": "Ethical Hacker"
+  },
+  {
+    "task": "Test mobile app for insecure data storage using drozer",
+    "role": "Ethical Hacker"
+  },
+
+
+  {
+    "task": "Build responsive UI using React",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Fix CSS styling issues",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Develop frontend using HTML CSS JavaScript",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Implement responsive design for mobile screens",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Optimize frontend performance",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Work with React hooks and state",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Convert design to code using CSS",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Build accessible ARIA-compliant React component library",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Implement code splitting and lazy loading in React app",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Create CSS animations and transitions for React UI",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Write Jest unit tests for React frontend components",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Manage global state with React Context and useReducer",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Implement dark mode toggle using CSS variables in React",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Debug cross-browser CSS layout issues in Chrome Firefox",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Improve Google Lighthouse web performance score",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Build skeleton loading screens for React data pages",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Add form validation with React Hook Form library",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Integrate Google Analytics tracking in React pages",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Build D3.js data visualization charts in React",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Implement infinite scroll in React product listing",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Add i18n internationalization support to React app",
+    "role": "Frontend Developer"
+  },
+  {
+    "task": "Configure Webpack and Babel for React build pipeline",
+    "role": "Frontend Developer"
+  },
+
+
+
+  {
+    "task": "Develop REST API for application",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Handle server-side logic",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Build authentication system",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Fix backend bugs and errors",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Create API endpoints using Node.js",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Optimize server performance",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Implement business logic on server",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Design scalable REST API using Express.js and Node.js",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Implement JWT token authentication in Express server",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Optimize MongoDB queries with indexing in Node backend",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Build WebSocket server for real-time notifications",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Write Express.js middleware for request validation",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Set up cron jobs for scheduled backend server tasks",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Implement rate limiting using Redis in Express API",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Handle file uploads to S3 from Node.js backend",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Implement data pagination in Node.js REST endpoints",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Create event-driven backend using RabbitMQ queues",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Generate PDF reports from server data in Node.js",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Implement OTP email verification in Express backend",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Set up API versioning in Express.js application",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Write server-side input sanitization with Express",
+    "role": "Backend Developer"
+  },
+  {
+    "task": "Build microservices backend using Node.js and Docker",
+    "role": "Backend Developer"
+  },
+
+
+
+  {
+    "task": "Write automated test cases",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Test application for bugs",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Perform manual testing",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Check system functionality",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Run test scripts",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Report software defects",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Perform regression testing",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Ensure software quality",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Test application usability",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Automate end-to-end browser tests using Selenium WebDriver",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Perform load testing and stress testing using JMeter",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Create detailed test plan and QA test case document",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Track and manage software defects in Jira board",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Verify API response payloads using Postman collections",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Execute smoke test suite after each production release",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Perform cross-browser testing on Chrome Firefox Safari",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Review test coverage report and identify untested areas",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Reproduce intermittent bugs and document QA steps",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Coordinate UAT user acceptance testing session",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Write Cucumber BDD scenarios for acceptance testing",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Test payment gateway end to end in staging environment",
+    "role": "QA Engineer"
+  },
+  {
+    "task": "Test application accessibility compliance for WCAG",
+    "role": "QA Engineer"
+  },
+
+
+
+  {
+    "task": "Analyze customer data",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Generate reports from data",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Create dashboards using data",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Analyze sales trends",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Prepare business reports",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Clean and process data",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Visualize data insights",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Work with Excel and data tools",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Perform exploratory data analysis using Python pandas",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Clean and deduplicate raw dataset using pandas",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Build customer churn prediction model using Python",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Create pivot table to summarize regional sales data",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Segment customers based on purchasing behavior data",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Perform cohort analysis to track user retention",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Compute correlation matrix between business variables",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Analyze geographic sales distribution using Python",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Present data insights and trends in weekly meeting",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Identify seasonal patterns in sales time series data",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Build automated data quality checks using Python",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Create data visualization charts in Matplotlib Seaborn",
+    "role": "Data Analyst"
+  },
+  {
+    "task": "Prepare weekly operational analytics summary report",
+    "role": "Data Analyst"
+  },
+
+
+
+  {
+    "task": "Setup CI/CD pipeline",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Automate deployment using Docker",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Manage server infrastructure",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Monitor system performance",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Improve deployment workflow",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Handle container orchestration",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Maintain system reliability",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Manage Kubernetes cluster and pod deployments",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Write Terraform scripts for cloud infrastructure provisioning",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Set up Prometheus and Grafana monitoring dashboards",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Configure GitHub Actions CI/CD workflow automation",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Implement blue-green deployment to reduce downtime",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Set up ELK stack for centralized log aggregation",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Automate server provisioning using Ansible playbooks",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Manage secrets and credentials using HashiCorp Vault",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Configure auto-scaling policies for cloud workloads",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Build disaster recovery plan for DevOps infrastructure",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Perform capacity planning for system resource growth",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Roll out Kubernetes Helm chart for new service",
+    "role": "DevOps Engineer"
+  },
+  {
+    "task": "Reduce Docker image size for faster CI/CD deployments",
+    "role": "DevOps Engineer"
+  },
+
+
+
+  {
+    "task": "Deploy application on AWS",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Manage cloud infrastructure",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Configure cloud servers",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Monitor cloud services",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Scale cloud applications",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Manage cloud storage",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Handle AWS deployments",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Optimize cloud cost",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Setup cloud networking",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Design AWS VPC with public private subnet architecture",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Set up EC2 auto-scaling group for cloud application",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Migrate legacy monolith to AWS Lambda serverless",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Manage Azure Active Directory and RBAC permissions",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Implement GCP cost optimization using committed use",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Provision RDS PostgreSQL database on AWS cloud",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Set up AWS CloudFront CDN for static website assets",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Enable AWS backup and EBS snapshot retention policies",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Monitor AWS billing and set cost budget alerts",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Configure Application Load Balancer for high availability",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Audit AWS IAM roles and least privilege permissions",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Enable AWS KMS encryption at rest for S3 buckets",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Design multi-region AWS failover strategy for disaster",
+    "role": "Cloud Engineer"
+  },
+  {
+    "task": "Set up AWS CloudWatch alarms for infrastructure alerts",
+    "role": "Cloud Engineer"
+  },
+
+
+
+  {
+    "task": "Design mobile app interface",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Improve user experience",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Create UI mockups",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Design app wireframes",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Work on user interface design",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Improve usability of application",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Design user-friendly layouts",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Create design prototypes",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Work with Figma designs",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Enhance user interaction flow",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Conduct usability testing with real users in Figma",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Design consistent Figma component library for product",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Perform A/B test on two interface layouts in Figma",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Create user journey map and persona for UX research",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Design onboarding flow and empty state screens",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Redesign navigation based on UX user testing results",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Create icon set and illustration assets in Figma",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Develop typography and color design guidelines",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Analyze heatmap data to improve Figma UI layout",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Design error state and toast notification screens",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Work with developers to hand off Figma designs",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Present UX design concepts to product stakeholders",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Ensure design accessibility standards for all users",
+    "role": "UI/UX Designer"
+  },
+  {
+    "task": "Iterate on Figma prototype based on feedback",
+    "role": "UI/UX Designer"
+  },
+
+
+
+  {
+    "task": "Develop embedded systems using C/C++",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Work with Linux kernel modules",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Interface hardware with software",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Develop device drivers for hardware",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Optimize embedded system performance",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Debug low-level system issues",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Build and customize Linux OS for devices",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Handle real-time operating systems (RTOS)",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Test embedded system functionality",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Write bare-metal firmware for ARM Cortex-M in C",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Port Linux kernel driver to custom ARM hardware",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Debug hardware signal timing using oscilloscope",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Implement I2C and SPI peripheral drivers in C",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Optimize Linux boot time on embedded ARM board",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Implement watchdog timer recovery in RTOS firmware",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Profile CPU and memory on embedded Linux Yocto board",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Set up cross-compilation toolchain for ARM Linux",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Integrate temperature sensor driver into embedded Linux",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Build Yocto Linux custom image for IoT hardware",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Handle low-power sleep modes in ARM microcontroller",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Write UART and CAN bus drivers in embedded C",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Test RTOS task scheduling on microcontroller",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Fix memory corruption bug in embedded C firmware",
+    "role": "Embedded Linux Developer"
+  },
+  {
+    "task": "Validate hardware peripherals using test firmware in C",
+    "role": "Embedded Linux Developer"
+  },
+
+
+
+  {
+    "task": "Develop applications using .NET framework",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Build web apps using ASP.NET",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Create APIs using .NET Core",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Work with C# for backend development",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Fix bugs in .NET applications",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Implement authentication and authorization",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Maintain and update existing .NET apps",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Deploy .NET applications to server/cloud",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Build RESTful API using ASP.NET Core Web API in C#",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Configure dependency injection container in .NET 8",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Write LINQ queries for C# data access repository",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Develop Blazor WebAssembly app using C# .NET",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Implement SignalR hub for real-time .NET features",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Write xUnit tests for C# ASP.NET Core controllers",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Migrate .NET Framework 4.8 project to .NET 8",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Implement background worker using IHostedService C#",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Configure Serilog structured logging in .NET app",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Integrate Azure AD OAuth2 with ASP.NET Core app",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Apply CQRS and MediatR pattern in .NET project",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Implement Redis distributed caching in .NET API",
+    "role": ".NET Application Developer"
+  },
+  {
+    "task": "Troubleshoot and fix NullReferenceException in C# app",
+    "role": ".NET Application Developer"
+  },
+
+
+
+  {
+    "task": "Configure network devices like routers and switches",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Design and manage network infrastructure",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Monitor network performance and uptime",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Troubleshoot network connectivity issues",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Implement network security measures",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Manage IP addressing and subnetting",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Setup firewalls and VPN connections",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Maintain network documentation",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Upgrade network systems and hardware",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Ensure network reliability and scalability",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Configure BGP routing protocol on enterprise Cisco router",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Implement VLAN segmentation on Cisco switches",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Diagnose packet loss using Wireshark capture analysis",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Configure IPsec VPN tunnel between data centers",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Design redundant network topology with spanning tree",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Deploy network access control NAC policies",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Analyze network traffic patterns for anomalies",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Configure QoS for VoIP voice traffic prioritization",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Migrate network to new IP CIDR addressing scheme",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Manage Cisco wireless access point configuration",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Test network failover and redundancy scenarios",
+    "role": "Network Engineer"
+  },
+  {
+    "task": "Audit Cisco network equipment firmware versions",
+    "role": "Network Engineer"
+  },
+
+
+
+  
+  {
+    "task": "Fix bugs in full stack application",
+    "roles": [
+      "Full Stack Developer",
+      "Backend Developer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Implement login and signup functionality",
+    "roles": [
+      "Full Stack Developer",
+      "Frontend Developer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Integrate frontend with backend APIs",
+    "roles": [
+      "Frontend Developer",
+      "Backend Developer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Optimize website performance",
+    "roles": [
+      "Full Stack Developer",
+      "Frontend Developer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Develop and test REST APIs",
+    "roles": [
+      "Backend Developer",
+      "QA Engineer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Fix UI issues and improve user experience",
+    "roles": [
+      "Frontend Developer",
+      "UI/UX Designer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Implement authentication and authorization",
+    "roles": [
+      "Backend Developer",
+      "Full Stack Developer",
+      "Cyber Security Analyst"
+    ]
+  },
+  {
+    "task": "Connect application with database",
+    "roles": [
+      "Backend Developer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Handle server errors and debug issues",
+    "roles": [
+      "Backend Developer",
+      "Full Stack Developer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Create reusable UI components",
+    "roles": [
+      "Frontend Developer",
+      "Full Stack Developer",
+      "UI/UX Designer"
+    ]
+  },
+  {
+    "task": "Test application functionality and fix defects",
+    "roles": [
+      "QA Engineer",
+      "Full Stack Developer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Deploy application and monitor performance",
+    "roles": [
+      "DevOps Engineer",
+      "Full Stack Developer",
+      "Cloud Engineer"
+    ]
+  },
+  {
+    "task": "Update frontend design based on feedback",
+    "roles": [
+      "Frontend Developer",
+      "UI/UX Designer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Write and optimize database queries",
+    "roles": [
+      "Backend Developer",
+      "SQL Developer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Implement API error handling and validation",
+    "roles": [
+      "Backend Developer",
+      "Full Stack Developer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Improve application security",
+    "roles": [
+      "Cyber Security Analyst",
+      "Backend Developer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Refactor code for better performance",
+    "roles": [
+      "Full Stack Developer",
+      "Backend Developer",
+      "Frontend Developer"
+    ]
+  },
+  {
+    "task": "Add new feature to existing application",
+    "roles": [
+      "Full Stack Developer",
+      "Frontend Developer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Debug frontend and backend integration issues",
+    "roles": [
+      "Frontend Developer",
+      "Backend Developer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Ensure application responsiveness across devices",
+    "roles": [
+      "Frontend Developer",
+      "UI/UX Designer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Build and deploy cloud infrastructure",
+    "roles": [
+      "Cloud Engineer",
+      "DevOps Engineer"
+    ]
+  },
+  {
+    "task": "Set up CI CD pipeline and deploy to cloud",
+    "roles": [
+      "DevOps Engineer",
+      "Cloud Engineer"
+    ]
+  },
+  {
+    "task": "Automate deployment and monitor cloud services",
+    "roles": [
+      "DevOps Engineer",
+      "Cloud Engineer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Manage Kubernetes cluster and cloud scaling",
+    "roles": [
+      "DevOps Engineer",
+      "Cloud Engineer"
+    ]
+  },
+  {
+    "task": "Configure server and cloud network infrastructure",
+    "roles": [
+      "Cloud Engineer",
+      "DevOps Engineer",
+      "Network Engineer"
+    ]
+  },
+  {
+    "task": "Provision cloud resources and write terraform scripts",
+    "roles": [
+      "Cloud Engineer",
+      "DevOps Engineer"
+    ]
+  },
+  {
+    "task": "Monitor cloud deployments and server health",
+    "roles": [
+      "DevOps Engineer",
+      "Cloud Engineer"
+    ]
+  },
+  {
+    "task": "Set up cloud networking and firewall rules",
+    "roles": [
+      "Cloud Engineer",
+      "Network Engineer",
+      "Cyber Security Analyst"
+    ]
+  },
+  {
+    "task": "Deploy microservices to AWS using Docker",
+    "roles": [
+      "DevOps Engineer",
+      "Cloud Engineer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Manage AWS infrastructure with Terraform and Ansible",
+    "roles": [
+      "Cloud Engineer",
+      "DevOps Engineer"
+    ]
+  },
+  {
+    "task": "Perform penetration testing and security audit",
+    "roles": [
+      "Ethical Hacker",
+      "Cyber Security Analyst"
+    ]
+  },
+  {
+    "task": "Secure application and conduct ethical hacking",
+    "roles": [
+      "Cyber Security Analyst",
+      "Ethical Hacker"
+    ]
+  },
+  {
+    "task": "Find vulnerabilities and implement security measures",
+    "roles": [
+      "Ethical Hacker",
+      "Cyber Security Analyst",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Simulate attacks and monitor security threats",
+    "roles": [
+      "Ethical Hacker",
+      "Cyber Security Analyst"
+    ]
+  },
+  {
+    "task": "Conduct security risk assessment and pentest",
+    "roles": [
+      "Cyber Security Analyst",
+      "Ethical Hacker"
+    ]
+  },
+  {
+    "task": "Implement MFA and zero trust security policies",
+    "roles": [
+      "Cyber Security Analyst",
+      "Ethical Hacker",
+      "Network Engineer"
+    ]
+  },
+  {
+    "task": "Audit network security and patch vulnerabilities",
+    "roles": [
+      "Cyber Security Analyst",
+      "Network Engineer",
+      "Ethical Hacker"
+    ]
+  },
+  {
+    "task": "Analyze and visualize business data",
+    "roles": [
+      "Data Analyst",
+      "Business Intelligence Analyst"
+    ]
+  },
+  {
+    "task": "Build BI dashboards and analyze data trends",
+    "roles": [
+      "Business Intelligence Analyst",
+      "Data Analyst"
+    ]
+  },
+  {
+    "task": "Process big data and generate business reports",
+    "roles": [
+      "Big Data Engineer",
+      "Data Analyst",
+      "Business Intelligence Analyst"
+    ]
+  },
+  {
+    "task": "Build data pipelines and create BI dashboards",
+    "roles": [
+      "Big Data Engineer",
+      "Business Intelligence Analyst",
+      "Data Analyst"
+    ]
+  },
+  {
+    "task": "Analyze large scale datasets and report insights",
+    "roles": [
+      "Data Analyst",
+      "Big Data Engineer"
+    ]
+  },
+  {
+    "task": "Work with Hadoop Spark and Power BI reporting",
+    "roles": [
+      "Big Data Engineer",
+      "Business Intelligence Analyst"
+    ]
+  },
+  {
+    "task": "Clean data and create Tableau dashboards",
+    "roles": [
+      "Data Analyst",
+      "Business Intelligence Analyst"
+    ]
+  },
+  {
+    "task": "Build ETL pipelines and visualize business KPIs",
+    "roles": [
+      "Big Data Engineer",
+      "Data Analyst",
+      "Business Intelligence Analyst"
+    ]
+  },
+  {
+    "task": "Stream real time data and report analytics",
+    "roles": [
+      "Big Data Engineer",
+      "Data Analyst"
+    ]
+  },
+  {
+    "task": "Perform data analysis and create Power BI report",
+    "roles": [
+      "Data Analyst",
+      "Business Intelligence Analyst"
+    ]
+  },
+  {
+    "task": "Design UI and develop frontend components",
+    "roles": [
+      "UI/UX Designer",
+      "Frontend Developer"
+    ]
+  },
+  {
+    "task": "Create Figma prototypes and build React components",
+    "roles": [
+      "UI/UX Designer",
+      "Frontend Developer"
+    ]
+  },
+  {
+    "task": "Design wireframes and implement responsive interface",
+    "roles": [
+      "UI/UX Designer",
+      "Frontend Developer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Conduct user research and implement UI changes",
+    "roles": [
+      "UI/UX Designer",
+      "Frontend Developer"
+    ]
+  },
+  {
+    "task": "Build design system and implement in React",
+    "roles": [
+      "UI/UX Designer",
+      "Frontend Developer"
+    ]
+  },
+  {
+    "task": "Develop and test Android application",
+    "roles": [
+      "Android Developer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Build Android app and integrate REST APIs",
+    "roles": [
+      "Android Developer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Develop Android and iOS applications",
+    "roles": [
+      "Android Developer",
+      "iOS Developer"
+    ]
+  },
+  {
+    "task": "Test and fix bugs in Android app",
+    "roles": [
+      "Android Developer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Build cross platform mobile app with backend",
+    "roles": [
+      "Android Developer",
+      "iOS Developer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Develop and test iOS application",
+    "roles": [
+      "iOS Developer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Build iOS app and integrate backend APIs",
+    "roles": [
+      "iOS Developer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Fix iOS and Android app bugs and test",
+    "roles": [
+      "iOS Developer",
+      "Android Developer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Build mobile application for iPhone and Android",
+    "roles": [
+      "iOS Developer",
+      "Android Developer",
+      "Backend Developer",
+      "UI/UX Designer"
+    ]
+  },
+  {
+    "task": "Write SQL queries and optimize database",
+    "roles": [
+      "SQL Developer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Design database schema and develop backend",
+    "roles": [
+      "SQL Developer",
+      "Backend Developer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Migrate database and update backend APIs",
+    "roles": [
+      "SQL Developer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Optimize SQL queries and monitor big data",
+    "roles": [
+      "SQL Developer",
+      "Big Data Engineer"
+    ]
+  },
+  {
+    "task": "Build reporting database and write queries",
+    "roles": [
+      "SQL Developer",
+      "Data Analyst"
+    ]
+  },
+  {
+    "task": "Develop .NET application and secure it",
+    "roles": [
+      ".NET Application Developer",
+      "Cyber Security Analyst"
+    ]
+  },
+  {
+    "task": "Build ASP.NET backend and connect SQL Server",
+    "roles": [
+      ".NET Application Developer",
+      "SQL Developer"
+    ]
+  },
+  {
+    "task": "Create .NET APIs and write test cases",
+    "roles": [
+      ".NET Application Developer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Deploy .NET application to cloud",
+    "roles": [
+      ".NET Application Developer",
+      "Cloud Engineer",
+      "DevOps Engineer"
+    ]
+  },
+  {
+    "task": "Develop C# backend and connect to database",
+    "roles": [
+      ".NET Application Developer",
+      "SQL Developer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Configure network and deploy cloud infrastructure",
+    "roles": [
+      "Network Engineer",
+      "Cloud Engineer"
+    ]
+  },
+  {
+    "task": "Secure network and monitor for threats",
+    "roles": [
+      "Network Engineer",
+      "Cyber Security Analyst"
+    ]
+  },
+  {
+    "task": "Design network topology and set up VPN",
+    "roles": [
+      "Network Engineer",
+      "Cloud Engineer",
+      "Cyber Security Analyst"
+    ]
+  },
+  {
+    "task": "Troubleshoot network issues and configure routers",
+    "roles": [
+      "Network Engineer",
+      "DevOps Engineer"
+    ]
+  },
+  {
+    "task": "Set up firewall rules and monitor network traffic",
+    "roles": [
+      "Network Engineer",
+      "Cyber Security Analyst"
+    ]
+  },
+  {
+    "task": "Develop embedded firmware and test hardware",
+    "roles": [
+      "Embedded Linux Developer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Write device drivers and integrate with cloud",
+    "roles": [
+      "Embedded Linux Developer",
+      "Cloud Engineer"
+    ]
+  },
+  {
+    "task": "Build embedded Linux system and deploy",
+    "roles": [
+      "Embedded Linux Developer",
+      "DevOps Engineer"
+    ]
+  },
+  {
+    "task": "Implement embedded C code and validate hardware",
+    "roles": [
+      "Embedded Linux Developer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Build full website with UI design and backend",
+    "roles": [
+      "Frontend Developer",
+      "Backend Developer",
+      "UI/UX Designer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Develop ecommerce platform with payment and database",
+    "roles": [
+      "Full Stack Developer",
+      "Backend Developer",
+      "SQL Developer",
+      "Frontend Developer"
+    ]
+  },
+  {
+    "task": "Launch app with CI CD pipeline and cloud deployment",
+    "roles": [
+      "DevOps Engineer",
+      "Cloud Engineer",
+      "Full Stack Developer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Build data analytics platform with reports",
+    "roles": [
+      "Big Data Engineer",
+      "Data Analyst",
+      "Business Intelligence Analyst",
+      "SQL Developer"
+    ]
+  },
+  {
+    "task": "Perform full security audit of production system",
+    "roles": [
+      "Cyber Security Analyst",
+      "Ethical Hacker",
+      "Network Engineer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Build and test mobile application for all platforms",
+    "roles": [
+      "Android Developer",
+      "iOS Developer",
+      "Backend Developer",
+      "UI/UX Designer"
+    ]
+  },
+  {
+    "task": "Build and test full stack web application",
+    "roles": [
+      "Full Stack Developer",
+      "Frontend Developer",
+      "Backend Developer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Create complete enterprise software solution",
+    "roles": [
+      "Full Stack Developer",
+      "SQL Developer",
+      "DevOps Engineer",
+      "QA Engineer"
+    ]
+  },
+  {
+    "task": "Migrate monolith to microservices on cloud",
+    "roles": [
+      "Full Stack Developer",
+      "DevOps Engineer",
+      "Cloud Engineer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Build company internal portal with design and APIs",
+    "roles": [
+      "UI/UX Designer",
+      "Frontend Developer",
+      "Backend Developer",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Secure and deploy application on AWS",
+    "roles": [
+      "Cloud Engineer",
+      "DevOps Engineer",
+      "Cyber Security Analyst",
+      "Full Stack Developer"
+    ]
+  },
+  {
+    "task": "Build real time chat application",
+    "roles": [
+      "Full Stack Developer",
+      "Backend Developer",
+      "Frontend Developer"
+    ]
+  },
+  {
+    "task": "Set up monitoring alerting and logging system",
+    "roles": [
+      "DevOps Engineer",
+      "Cloud Engineer",
+      "Backend Developer"
+    ]
+  },
+  {
+    "task": "Analyze sales data and build executive dashboard",
+    "roles": [
+      "Data Analyst",
+      "Business Intelligence Analyst",
+      "SQL Developer"
+    ]
+  },
+  {
+    "task": "Build and deploy Android and iOS app with API",
+    "roles": [
+      "Android Developer",
+      "iOS Developer",
+      "Backend Developer"
+    ]
+  }
+]

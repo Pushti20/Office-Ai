@@ -1,0 +1,51 @@
+{
+  "dataset": {
+    "total_entries": 489,
+    "clean_samples": 394,
+    "missing_removed": 95,
+    "unique_roles": 18,
+    "features": 800
+  },
+  "preprocessing": {
+    "step1": "Missing value removal - empty/null entries filtered",
+    "step2": "Lowercase normalization and whitespace stripping",
+    "step3": "TF-IDF tokenization (1-2 ngram, 800 features, fit on TRAIN only)"
+  },
+  "split": {
+    "train_size": 275,
+    "test_size": 119,
+    "ratio": "70 / 30",
+    "stratified": true
+  },
+  "model": {
+    "type": "Logistic Regression",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "class_weight": "balanced"
+  },
+  "metrics": {
+    "train_accuracy": 99.64,
+    "test_accuracy": 78.99,
+    "precision": 79.68,
+    "recall": 78.99,
+    "f1_score": 78.46,
+    "train_test_gap": 20.64
+  },
+  "cross_validation": {
+    "folds": 5,
+    "scores": [
+      82.28,
+      74.68,
+      75.95,
+      84.81,
+      79.49
+    ],
+    "mean": 79.44,
+    "std": 3.79
+  },
+  "overfitting": {
+    "status": "Overfitting Detected",
+    "note": "Training accuracy is significantly higher than test. More data or lower C recommended.",
+    "train_test_gap": 20.64
+  }
+}
