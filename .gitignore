@@ -7,3 +7,7 @@ src/backend/.env
 # Build folders
 build/
 dist/
+
+# Backup and temp
+my-app-backup/
+temp_test/
