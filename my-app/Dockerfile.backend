@@ -1,0 +1,29 @@
+# ── Backend Dockerfile ──
+# Uses Node 20 on Debian Bookworm so we can install Python3 alongside Node
+# for the ML prediction scripts (predict.py uses scikit-learn + pickle)
+
+FROM node:20-bookworm-slim
+
+# Install Python3 + pip for the ML model
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends python3 python3-pip && \
+    rm -rf /var/lib/apt/lists/*
+
+# Install Python ML dependencies
+COPY src/backend/model/requirements.txt /tmp/requirements.txt
+RUN pip3 install --no-cache-dir --break-system-packages -r /tmp/requirements.txt && rm /tmp/requirements.txt
+
+WORKDIR /app
+
+# Copy package files and install Node dependencies
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev
+
+# Copy the backend source code (and ML model files)
+COPY src/backend/ ./src/backend/
+
+# Expose the backend port
+EXPOSE 5000
+
+# Start the Express server
+CMD ["node", "src/backend/server.js"]

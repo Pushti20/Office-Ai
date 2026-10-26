@@ -1,0 +1,26 @@
+# ── Frontend Dockerfile ──
+# Development server with hot-reloading via react-scripts start
+
+FROM node:20-bookworm-slim
+
+WORKDIR /app
+
+# Copy package files and install ALL dependencies (dev included for react-scripts)
+COPY package.json package-lock.json ./
+RUN npm ci
+
+# Copy the entire source (frontend, config, public, etc.)
+COPY public/ ./public/
+COPY src/ ./src/
+
+# React dev server port
+EXPOSE 3000
+
+# Set the API URL environment variable for the React build
+# This tells the frontend where the backend lives (from the browser's perspective)
+ENV REACT_APP_API_URL=http://localhost:5000
+
+# Start the React dev server, binding to 0.0.0.0 so it's reachable from host
+ENV HOST=0.0.0.0
+
+CMD ["npm", "start"]

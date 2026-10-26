@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import Select from "react-select";
+import API_URL from "../../config";
 
 export default function Admin() {
   const [users, setUsers] = useState([]);
@@ -34,17 +35,17 @@ export default function Admin() {
   const nav = useNavigate();
 
   const loadUsers = async () => {
-    const res = await axios.get("http://localhost:5000/pending");
+    const res = await axios.get(`${API_URL}/pending`);
     setUsers(res.data);
   };
 
   const loadTasks = async () => {
-    const res = await axios.get("http://localhost:5000/all-tasks");
+    const res = await axios.get(`${API_URL}/all-tasks`);
     setTasks(res.data);
   };
 
   const loadEmployees = async () => {
-    const res = await axios.get("http://localhost:5000/employee-status");
+    const res = await axios.get(`${API_URL}/employee-status`);
     setEmployees(res.data);
   };
 
@@ -67,19 +68,19 @@ export default function Admin() {
     const role = form[id]?.role;
     const salary = form[id]?.salary;
     if (!role || !salary) return alert("Enter role & salary");
-    await axios.post(`http://localhost:5000/approve/${id}`, { role, salary });
+    await axios.post(`${API_URL}/approve/${id}`, { role, salary });
     loadUsers();
     loadEmployees();
   };
 
   const rejectUser = async (id) => {
-    await axios.delete(`http://localhost:5000/reject/${id}`);
+    await axios.delete(`${API_URL}/reject/${id}`);
     loadUsers();
   };
 
   const deleteTask = async (id) => {
     if (!window.confirm("Delete this task?")) return;
-    await axios.delete(`http://localhost:5000/delete-task/${id}`);
+    await axios.delete(`${API_URL}/delete-task/${id}`);
     loadTasks();
   };
 
@@ -87,7 +88,7 @@ export default function Admin() {
     if (!task) return alert("Enter task title");
     setAssignMsg("⏳ AI is analyzing and assigning...");
     try {
-      const res = await axios.post("http://localhost:5000/assign-task", { title: task, days });
+      const res = await axios.post(`${API_URL}/assign-task`, { title: task, days });
       setAssignMsg(`✅ Assigned to: ${res.data.task?.assignedTo} (${res.data.task?.role})`);
       setTask("");
       loadTasks();
@@ -100,7 +101,7 @@ export default function Admin() {
     if (!task) return alert("Enter task title");
     setAssignMsg("⏳ AI is building team and assigning...");
     try {
-      await axios.post("http://localhost:5000/assign-team", { title: task, days });
+      await axios.post(`${API_URL}/assign-team`, { title: task, days });
       setAssignMsg("✅ Team task assigned successfully!");
       setTask("");
       setTimeout(() => loadTasks(), 500);
@@ -111,7 +112,7 @@ export default function Admin() {
 
   const deleteEmployee = async (emp) => {
     if (!window.confirm(`Delete ${emp.name || emp.email}? This cannot be undone.`)) return;
-    await axios.delete(`http://localhost:5000/delete-employee/${emp._id}`);
+    await axios.delete(`${API_URL}/delete-employee/${emp._id}`);
     loadEmployees();
   };
 
@@ -127,7 +128,7 @@ export default function Admin() {
       return;
     }
     try {
-      await axios.put(`http://localhost:5000/edit-role-salary/${emp._id}`, { role, salary });
+      await axios.put(`${API_URL}/edit-role-salary/${emp._id}`, { role, salary });
       setEditMsg(prev => ({ ...prev, [emp._id]: { text: "Updated successfully!", type: "success" } }));
       setEditForm(prev => ({ ...prev, [emp._id]: {} }));
       loadEmployees();

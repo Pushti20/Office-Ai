@@ -1,10 +1,13 @@
 const { exec } = require("child_process");
+const path = require("path");
+
+const PREDICT_SCRIPT = path.join(__dirname, "model", "predict.py");
 
 function getRoleFromAI(task, mode = "individual") {
   return new Promise((resolve) => {
     const t = task.toLowerCase();
 
-    exec(`python model/predict.py "${task}" ${mode}`, (err, stdout) => {
+    exec(`python3 "${PREDICT_SCRIPT}" "${task}" ${mode}`, (err, stdout) => {
       if (err) {
         console.log("ML Error:", err);
         if (mode === "team") {
@@ -111,7 +114,7 @@ async function getTeamFromAI(task, roles) {
 
   try {
     const mlRoles = await new Promise((resolve, reject) => {
-      exec(`python model/predict.py "${task}" team`, (err, stdout) => {
+      exec(`python3 "${PREDICT_SCRIPT}" "${task}" team`, (err, stdout) => {
         if (err) return reject(err);
         const result = stdout.trim().toLowerCase();
         if (!result) return reject(new Error("empty"));

@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { FaUser, FaLock, FaRobot } from "react-icons/fa";
+import API_URL from "../../config";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -10,7 +11,7 @@ export default function Login() {
 
   const login = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/login", {
+      const res = await axios.post(`${API_URL}/login`, {
         email,
         password
       });

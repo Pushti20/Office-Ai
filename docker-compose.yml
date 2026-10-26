@@ -1,0 +1,60 @@
+# ── Docker Compose for Office AI ──
+# Runs 3 services: MongoDB, Backend (Node+Python), Frontend (React)
+#
+# Usage:
+#   docker compose up --build        # Build and start everything
+#   docker compose up --build -d     # Same but detached (background)
+#   docker compose down              # Stop and remove containers
+#   docker compose logs -f           # Follow live logs
+#   docker compose logs backend -f   # Follow only backend logs
+
+services:
+
+  # ── MongoDB ──
+  mongodb:
+    image: mongo:7
+    container_name: office-ai-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  # ── Backend (Express + Python ML) ──
+  backend:
+    build:
+      context: ./my-app
+      dockerfile: Dockerfile.backend
+    container_name: office-ai-backend
+    restart: unless-stopped
+    ports:
+      - "5001:5000"
+    environment:
+      PORT: 5000
+      MONGO_URI: mongodb://mongodb:27017/office-ai
+    depends_on:
+      mongodb:
+        condition: service_healthy
+
+  # ── Frontend (React Dev Server) ──
+  frontend:
+    build:
+      context: ./my-app
+      dockerfile: Dockerfile.frontend
+    container_name: office-ai-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      REACT_APP_API_URL: http://localhost:5001
+    depends_on:
+      - backend
+
+volumes:
+  mongo-data:

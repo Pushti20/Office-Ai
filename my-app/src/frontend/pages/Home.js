@@ -2,6 +2,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState, useCallback } from "react";
 import axios from "axios";
 import { FaUser, FaTasks, FaSignOutAlt, FaLock } from "react-icons/fa";
+import API_URL from "../../config";
 
 export default function Home() {
   const { state } = useLocation();
@@ -29,7 +30,7 @@ export default function Home() {
   const loadProfile = useCallback(async () => {
     if (!email) return;
     try {
-      const res = await axios.get(`http://localhost:5000/get-employee/${email}`);
+      const res = await axios.get(`${API_URL}/get-employee/${email}`);
       setProfile(res.data);
     } catch (err) {
       console.error("Failed to load profile", err);
@@ -39,7 +40,7 @@ export default function Home() {
   const loadTasks = useCallback(async () => {
     if (!email) return;
     try {
-      const res = await axios.get(`http://localhost:5000/my-tasks/${email}`);
+      const res = await axios.get(`${API_URL}/my-tasks/${email}`);
       setTasks(res.data);
     } catch (err) {
       console.error("Failed to load tasks", err);
@@ -52,7 +53,7 @@ export default function Home() {
   }, [loadProfile, loadTasks]);
 
   const updateStatus = async (id, status) => {
-    await axios.post(`http://localhost:5000/update-task/${id}`, { status });
+    await axios.post(`${API_URL}/update-task/${id}`, { status });
     loadTasks();
   };
 
@@ -61,7 +62,7 @@ export default function Home() {
     if (newPwd !== confirmPwd) return setPwdMsg("Passwords do not match.");
     if (newPwd.length < 4) return setPwdMsg("Minimum 4 characters required.");
     try {
-      const res = await axios.post("http://localhost:5000/change-password", {
+      const res = await axios.post(`${API_URL}/change-password`, {
         email: email, oldPassword: oldPwd, newPassword: newPwd
       });
       setPwdMsg("✅ " + res.data.msg);
